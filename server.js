@@ -3,7 +3,7 @@ var app = express();
 
 app.get('/', function(req, res){
   var path = require('path');
-  res.sendFile(path.resolve('../web/chatTest.html'));
+  res.sendFile(path.resolve('./index.html'));
 });
 
 server.listen(80, function(){
