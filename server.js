@@ -6,6 +6,6 @@ app.get('/', function(req, res){
   res.sendFile(path.resolve('./index.html'));
 });
 
-server.listen(80, function(){
+app.listen(80, function(){
     console.log('HTTP listening on 80');
   });
